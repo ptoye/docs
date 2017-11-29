@@ -949,7 +949,8 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The size of the client area of the form is the size of the form excluding the borders and the title bar. The client area of a form is the area within a form where controls can be placed. You can use this property to get the proper dimensions when performing graphics operations or when sizing and positioning controls on the form. To get the size of the entire form, use the <xref:System.Windows.Forms.Form.Size%2A> property or use the individual properties <xref:System.Windows.Forms.Control.Height%2A> and <xref:System.Windows.Forms.Control.Width%2A>.  
+ The size of the client area of the form is the size of the form excluding the borders and the title bar. The client area of a form is the area within a form where controls can be placed. You can use this property to get the proper dimensions when performing graphics operations or when sizing and positioning controls on the form. To get the size of the entire form, use the <xref:System.Windows.Forms.Form.Size%2A> property or use the individual properties <xref:System.Windows.Forms.Control.Height%2A> and <xref:System.Windows.Forms.Control.Width%2A>. 
+Note that the unit is pixels and zero-based so a 1 pixel by 1 pixel client has size {0,0}.
   
 > [!NOTE]
 >  You cannot currently bind to this property using application settings. For more information on application settings, see [Application Settings Overview](~/docs/framework/winforms/advanced/application-settings-overview.md).  
